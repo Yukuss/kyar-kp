@@ -1,0 +1,19 @@
+.first-section {
+    max-width: 1100px;
+}
+
+.first-section__image {
+    border-radius: 140px 0;
+    margin-right: 0;
+    transform: scale(0.7);
+    position: relative;
+}
+
+.first-article__descriptor {
+    font-size: 64px;
+    line-height: 68px;
+}
+
+.first-article {
+    row-gap: 15px;
+}

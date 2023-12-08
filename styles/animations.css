@@ -1,0 +1,65 @@
+.navigation__links a {
+  transition: 0.25s;
+}
+
+.navigation__links a:hover {
+  color: #646464;
+  transition: 0.25s;
+}
+
+.arrow-container {
+  transition: 0.25s;
+}
+
+.arrow-container:hover {
+  background-color: #37806B;
+  color: white;
+  cursor: pointer;
+}
+
+.arrow-container:active {
+  box-shadow: none;
+}
+
+.card {
+  transition: 0.35s;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:active {
+  box-shadow: none;
+  opacity: 0.8;
+}
+
+.logo-container {
+  transition: 0.25s;
+}
+
+.logo-container:hover {
+  background-color: #37806B;
+  transition: 0.25s;
+}
+
+.statistics__card {
+  transition: 0.25s;
+}
+
+.statistics__card:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+.green-button {
+  transition: 0.25s;
+}
+
+.green-button:hover,
+.newscard__button:hover,
+.navigation__button:hover,
+.subscribe__button:hover {
+  transition: 0.25s;
+  opacity: 0.8;
+}
