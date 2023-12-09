@@ -68,6 +68,8 @@
     font-family: "Poppins-Medium";
     font-size: 18px;
     line-height: 28px;
+    align-self: normal;
+    /* margin: auto; */
 }
 
 .first-article__descriptor {
@@ -151,7 +153,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 99%;
 }
 
 .arrow-container {
@@ -223,7 +225,7 @@
     align-items: center;
     column-gap: 0;
     margin: auto;
-    width: 80%;
+    width: 89%;
 }
 
 .second-article {
@@ -319,7 +321,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 87px;
+    row-gap: 49px;
     background-color: #F8F8F8;
 }
 
@@ -487,7 +489,7 @@
     font-family: "Poppins-Medium";
     font-size: 48px;
     line-height: 78px;
-    margin-bottom: 40px;
+    margin-bottom: 11px;
 }
 
 .seventh-section__image {
@@ -516,7 +518,7 @@
     font-family: "OpenSans-Semibold";
     font-size: 30px;
     line-height: 28px;
-    margin: 60px 0 16px 0;
+    margin: 46px 0 16px 0;
 }
 
 .newscard__description {
