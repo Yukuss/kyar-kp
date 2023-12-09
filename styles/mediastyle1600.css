@@ -69,7 +69,6 @@
     font-size: 18px;
     line-height: 28px;
     align-self: normal;
-    /* margin: auto; */
 }
 
 .first-article__descriptor {
@@ -483,6 +482,10 @@
 
 .newscard {
     width: 554px;
+}
+
+.spec-chapter {
+    margin: auto;
 }
 
 .seventh-section__title {
