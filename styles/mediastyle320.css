@@ -44,7 +44,7 @@
 .first-article__descriptor {
     font-family: "Poppins-Medium";
     text-align: center;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 48px;
 }
 
@@ -58,11 +58,11 @@
 .green-button {
     color: white;
     font-family: "OpenSans-Bold";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     background-color: #37806B;
     border-radius: 20px 0;
-    width: 300px;
+    width: 90%;
     height: 43px;
     cursor: pointer;
 }
@@ -92,7 +92,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 55px 114px 33px;
+    margin: auto;
 }
 
 .second-section__descriptor {
@@ -115,6 +115,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 162px;
 }
 
 .arrow-container {
@@ -131,7 +132,8 @@
 }
 
 .second-section__cards {
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .card:nth-of-type(odd) {
@@ -141,9 +143,9 @@
 .card {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-    width: 320px;
-    height: 250px;
+    row-gap: 2px;
+    width: 97%;
+    height: 221px;
     border-radius: 60px 0;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
 }
@@ -157,7 +159,7 @@
 .card__description {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 0px;
     align-self: normal;
     margin-left: 30px;
 }
@@ -174,8 +176,9 @@
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.18px;
-    width: 561px;
-
+    width: 90%;
+    height: 87px;
+    overflow: hidden;
 }
 
 .selected {
@@ -188,8 +191,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0;
+    margin: auto;
     column-gap: 0;
+    width: 90%;
 }
 
 .second-article {
@@ -197,13 +201,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    row-gap: 10px;
-    margin: 30px 0 62px;
+    row-gap: 6px;
+    margin: 24px 0 45px;
 }
 
 .second-article__descriptor {
     font-family: "Poppins-Medium";
-    font-size: 46px;
+    font-size: 34px;
     line-height: 48px;
 }
 
@@ -211,7 +215,9 @@
     font-family: "OpenSans-Regular";
     font-size: 16px;
     line-height: 30px;
-    width: 694px;
+    width: 100%;
+    overflow: hidden;
+    height: 123px;
 }
 
 .third-section__image {
@@ -221,12 +227,12 @@
 
 .second-background::before {
     content: " ";
-    left: -20px;
-    top: -20px;
-    width: 606px;
-    height: 422px;
+    left: -14px;
+    top: -14px;
+    width: 100%;
+    height: 257px;
     position: absolute;
-    border-radius: 100px 0px;
+    border-radius: 60px 0;
     outline: 2px solid #B0855B;
 }
 
@@ -244,12 +250,13 @@
     align-items: center;
     text-align: center;
     row-gap: 15px;
+    width: 100%;
 }
 
 .wooden-number {
     font-family: "OpenSans-Bold";
-    font-size: 288px;
-    line-height: 262px;
+    font-size: 246px;
+    line-height: 214px;
     letter-spacing: -2.88px;
     background: url(../images/wood-texture.jpg) no-repeat center/cover;
     background-clip: text;
@@ -259,10 +266,10 @@
 
 .third-article__descriptor {
     font-family: "Poppins-Medium";
-    font-size: 46px;
+    font-size: 34px;
     line-height: 48px;
     letter-spacing: 0;
-    width: 706px;
+    width: 90%;
 }
 
 .fourth-section__image {
@@ -272,7 +279,7 @@
 
 /*****************************/
 .fifth-section {
-    padding: 30px 55px 50px;
+    padding: 61px 0px 50px;
     margin-top: 45px;
     row-gap: 50px;
     display: flex;
@@ -284,10 +291,10 @@
 .statistics-descriptor {
     text-align: center;
     font-family: "Poppins-Medium";
-    font-size: 43px;
+    font-size: 34px;
     line-height: 48px;
     letter-spacing: -1px;
-    width: 650px;
+    width: 95%;
 }
 
 .br {
@@ -298,9 +305,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    height: 364px;
-    width: 650px;
-
+    height: auto;
+    width: 100%;
 }
 
 .statistics__card {
@@ -308,7 +314,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 315px;
+    width: 48%;
     height: 172px;
     border-radius: 40px 0px;
     background: #FFF;
@@ -338,25 +344,29 @@
 
 /******************************/
 .sixth-section {
-    margin: 61px auto 40px;
+    margin: 44px auto 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 650px;
+    width: 100%;
 }
 
 .reviewrap {
     display: flex;
     column-gap: 0;
+    width: 100%;
 }
 
 .arrow-align {
-    margin: 10px 0 40px;
+    margin: 10px 0 29px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 650px;
+    align-self: center;
+    width: 320px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .sixth-section__arrows {
@@ -372,46 +382,48 @@
 
 .review {
     display: flex;
-    width: 650px;
-    height: 226px;
+    width: 100%;
+    height: 209px;
     border-radius: 70px 0px;
     box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
     position: relative;
-
 }
 
 .testimonials-descriptor {
     font-family: "Poppins-Medium";
-    font-size: 46px;
+    font-size: 34px;
     line-height: 48px;
+    margin-bottom: 10px;
 }
 
 .review-head {
     font-family: "OpenSans-Bold";
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
-    margin-bottom: 14px;
+    margin-bottom: 0px;
 }
 
 .post {
     font-family: "OpenSans-Regular";
     font-size: 16px;
     line-height: 22px;
-
+    display: none;
 }
 
 .review-description {
     font-family: "OpenSans-Regular";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
-    width: 434px;
+    width: 94%;
+    height: 87px;
+    overflow: hidden;
 }
 
 .review-photo {
-    margin-left: -22px;
+    margin-left: 14px;
     margin-right: 13px;
-    width: 130px;
-    height: 131px;
+    width: 100px;
+    height: 101px;
     border-radius: 35px 0px;
 }
 
@@ -437,12 +449,13 @@
     padding: 20px 0 50px;
     margin: 0;
     background-color: #F8F8F8;
+    /* width: 100%; */
 }
 
 .seventh-section__news {
     display: flex;
     justify-content: center;
-    width: 650px;
+    width: 100%;
 }
 
 .seventh-section__news>div:nth-of-type(2) {
@@ -450,22 +463,23 @@
 }
 
 .newscard {
-    width: 650px;
+    width: 100%;
     text-align: center;
 }
 
 .seventh-section__title {
     font-family: "Poppins-Medium";
     text-align: center;
-    font-size: 46px;
+    font-size: 34px;
     line-height: 48px;
-    margin: 10px 0 30px;
+    margin: 7px 0 11px;
 }
 
 .seventh-section__image {
-    width: 606px;
-    height: 422px;
-    border-radius: 100px 0px;
+    width: 100%;
+    height: 257px;
+    object-fit: cover;
+    border-radius: 50px 0px;
     position: relative;
 }
 
@@ -477,12 +491,12 @@
 
 .seventh-section__wrap::before {
     content: "";
-    right: 0;
-    bottom: -20px;
+    right: -14px;
+    bottom: -14px;
     position: absolute;
-    width: 606px;
-    height: 422px;
-    border-radius: 100px 0px;
+    width: 100%;
+    height: 257px;
+    border-radius: 50px 0;
     outline: 2px solid #B0855B;
 }
 
@@ -490,7 +504,7 @@
     font-family: "OpenSans-Semibold";
     font-size: 30px;
     line-height: 28px;
-    margin: 50px 0 10px 0;
+    margin: 29px 0 10px 0;
 }
 
 .newscard__description {
@@ -506,7 +520,7 @@
     line-height: 25px;
     background-color: #37806B;
     border-radius: 20px 0;
-    width: 650px;
+    width: 90%;
     height: 43px;
     cursor: pointer;
 }
@@ -517,18 +531,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 30px;
-    margin-top: 186px;
+    row-gap: 18px;
+    margin-top: 90px;
 }
 
 .subscribe__hr {
     margin: 0;
-    width: 461px;
+    width: 84%;
 }
 
 .subscribe__form {
     display: flex;
-    width: 650px;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
 }
 
 .subscribe__input {
@@ -536,28 +552,28 @@
     font-size: 18px;
     color: #646464;
     background: #eeeeee;
-    border-radius: 20px 0 0 0;
+    border-radius: 20px 20px 0 0;
     padding: 0 10px 0 27px;
-    flex: 1 1 auto;
     height: 50px;
     border: none;
+    text-align: center;
 }
 
 .subscribe__button {
     font-family: "OpenSans-Bold";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     color: #FFF;
-    border-radius: 0px 0px 20px 0px;
+    border-radius: 0px 0px 20px 20px;
     background: #37806B;
-    width: 180px;
+    width: 100%;
     height: 50px;
     cursor: pointer;
 }
 
 .subscribe__descriptor {
     font-family: "Poppins-Medium";
-    font-size: 46px;
+    font-size: 40px;
     line-height: 48px;
     letter-spacing: 3.84px;
 }
@@ -565,7 +581,7 @@
 .subscribe__description {
     font-family: "OpenSans-Regular";
     text-align: center;
-    width: 646px;
+    width: 90%;
     font-size: 18px;
     line-height: 28px;
 }
@@ -591,8 +607,9 @@
 .footer__tabs {
     display: flex;
     justify-content: space-between;
-    width: 694px;
-    margin: 50px 0;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    margin: 33px 0;
 }
 
 .tab {
