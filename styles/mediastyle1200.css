@@ -393,7 +393,7 @@ li:nth-of-type(-n+7) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98%;
+    width: 83%;
 }
 
 .sixth-section__arrows {
@@ -577,7 +577,7 @@ li:nth-of-type(-n+7) {
 
 .subscribe__form {
     display: flex;
-    width: 100%;
+    width: 83%;
 }
 
 .subscribe__input {
