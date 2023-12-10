@@ -114,7 +114,7 @@ li:nth-of-type(-n+7) {
 .second-section {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 49px 0px;
 }
 
 .second-section__descriptor {
@@ -152,7 +152,8 @@ li:nth-of-type(-n+7) {
 }
 
 .second-section__cards {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin: 30px auto 20px;
 }
 
 .card:nth-of-type(odd) {

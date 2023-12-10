@@ -536,7 +536,7 @@ li:nth-of-type(-n+7) {
     font-family: "OpenSans-Semibold";
     font-size: 30px;
     line-height: 28px;
-    margin: 50px 0 22px;
+    margin: 37px 0 22px;
 }
 
 .newscard__description {
@@ -553,7 +553,7 @@ li:nth-of-type(-n+7) {
     line-height: 25px;
     background-color: #37806B;
     border-radius: 20px 0;
-    width: 90%;
+    width: 83%;
     height: 43px;
     cursor: pointer;
 }
@@ -566,7 +566,7 @@ li:nth-of-type(-n+7) {
     align-items: center;
     row-gap: 30px;
     margin-top: 186px;
-    margin: 186px auto 0;
+    margin: 111px auto 0;
     width: 90%;
 }
 

@@ -171,7 +171,7 @@
 .card {
   display: flex;
   gap: 17px;
-  width: 425px;
+  width: 22.13vw;
   height: 193px;
   border-radius: 60px 0;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
@@ -213,7 +213,7 @@
 .third-section {
   display: flex;
   align-items: center;
-  column-gap: 136px;
+  column-gap: 7vw;
   margin: 237px 249px 0 270px;
 }
 
@@ -367,7 +367,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 1282px;
+  width: 66.77vw;
 }
 
 .reviewrap {
@@ -377,7 +377,7 @@
 
 .arrow-align {
   margin-bottom: 40px;
-  width: 887px;
+  width: 46.2vw;
   display: flex;
   justify-content: space-between;
   align-items: center;

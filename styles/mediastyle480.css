@@ -1,7 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    margin: 20px auto 81px;
+    margin: 20px auto 37px;
     height: 40px;
 }
 
@@ -37,14 +37,14 @@
 
 .chapter-name {
     font-family: "Poppins-Medium";
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
 }
 
 .first-article__descriptor {
     font-family: "Poppins-Medium";
     text-align: center;
-    font-size: 40px;
+    font-size: 42px;
     line-height: 48px;
 }
 
@@ -62,7 +62,7 @@
     line-height: 25px;
     background-color: #37806B;
     border-radius: 20px 0;
-    width: 90%;
+    width: 320px;
     height: 43px;
     cursor: pointer;
 }
@@ -80,7 +80,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
-    width: 320px;
+    width: 97%;
 }
 
 .pattern {
@@ -98,7 +98,7 @@
 .second-section__descriptor {
     font-family: "Poppins-Medium";
     text-align: center;
-    font-size: 28px;
+    font-size: 34px;
     line-height: 28px;
     margin: 5px 0;
 }
@@ -115,7 +115,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 162px;
+    width: 197px;
 }
 
 .arrow-container {
@@ -132,7 +132,7 @@
 }
 
 .second-section__cards {
-    margin-top: 20px;
+    margin: 20px 0;
     width: 100%;
 }
 
@@ -191,7 +191,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: auto;
+    margin: 40px auto 0;
     column-gap: 0;
     width: 90%;
 }
@@ -223,6 +223,11 @@
 .third-section__image {
     position: relative;
 
+}
+
+.sizing {
+    height: 257px;
+    border-radius: 60px 0;
 }
 
 .second-background::before {
@@ -281,7 +286,7 @@
 .fifth-section {
     padding: 61px 0px 50px;
     margin-top: 45px;
-    row-gap: 50px;
+    row-gap: 27px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,7 +397,7 @@
 .testimonials-descriptor {
     font-family: "Poppins-Medium";
     font-size: 34px;
-    line-height: 48px;
+    line-height: 34px;
     margin-bottom: 10px;
 }
 
@@ -472,7 +477,7 @@
     text-align: center;
     font-size: 34px;
     line-height: 48px;
-    margin: 7px 0 11px;
+    margin: 0px 0 11px;
 }
 
 .seventh-section__image {
@@ -512,6 +517,7 @@
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 10px;
+    width: 91%;
 }
 
 .newscard__button {
@@ -588,8 +594,8 @@
 
 /********************************************************/
 .footer {
-    padding: 85px 56px 116px 33px;
-    margin-top: 247px;
+    padding: 84px 56px 116px 33px;
+    margin-top: 108px;
     background-color: #F8F8F8;
     display: flex;
     flex-wrap: wrap;
