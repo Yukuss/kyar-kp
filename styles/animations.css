@@ -1,10 +1,11 @@
-.navigation__links a {
+a {
   transition: 0.25s;
 }
 
-.navigation__links a:hover {
-  color: #646464;
+a:hover {
+  opacity: 0.75;
   transition: 0.25s;
+  text-decoration: underline;
 }
 
 .arrow-container {
@@ -40,7 +41,12 @@
 
 .logo-container:hover {
   background-color: #37806B;
+  scale: 1.13;
   transition: 0.25s;
+}
+
+.logo-container>a:hover {
+  opacity: 1;
 }
 
 .statistics__card {

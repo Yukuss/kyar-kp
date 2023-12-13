@@ -21,33 +21,33 @@
         <nav class="navigation">
             <ul class="navigation__links nav-font black">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">PROJECT</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#news">BLOG</a></li>
                 <li><a href="#">SHOP</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><button type="button" class="navigation__button nav-font">Sign Up</button></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><button onclick="window.location.href = '#';" type="button" class="navigation__button nav-font">Sign Up</button></li>
             </ul>
         </nav>
         <img class="header__burger" src="images/burger.svg" alt="burger">
     </header>
     <main>
-        <section class="first-section">
+        <section id="project" class="first-section">
             <article class="first-article">
                 <span class="chapter-name grey">MODERN INTERIOR</span>
                 <h1 class="first-article__descriptor black">Create Your Interior Design.</h1>
                 <p class="first-article__description grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                     veniam, quis nostrud exercitation.</p>
-                <button type="button" class="green-button">CONTACT</button>
+                <button onclick="window.location.href = '#';" type="button" class="green-button">CONTACT</button>
             </article>
             <div class="first-section__image first-background">
                 <img src="images/first-interior.jpg" alt="first-interior" class="sizing">
             </div>
         </section>
                     <img src="images/pattern.png" alt="pattern" class="pattern">
-        <section class="second-section">
+        <section id="services" class="second-section">
                 <span class="chapter-name grey">WHAT WE DO</span>
                 <div class="aligning">
                 <h2 class="second-section__descriptor black">Our Service</h2>
@@ -87,7 +87,7 @@
         </article>
             <img class="second-divider pattern" src="images/pattern.png" alt="pattern">
         </section>
-        <section class="third-section">
+        <section id="about" class="third-section">
                 <div class="third-section__image second-background">
                     <img src="images/second-interior.jpg" alt="second-interior" class="sizing">
                 </div>
@@ -95,15 +95,15 @@
                     <span class="chapter-name grey">ABOUT US</span>
                     <h2 class="second-article__descriptor black">Interioris The Will of An Epoch Mextreo</h2>
                     <p class="second-article__description grey">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form injected humour, or randomised words which don't look even slightly believable.If you are going to use a passage of Lorem Ipsum, sure there isn't anything embarrassing hidden the middleof text. All the Lorem Ipsum generators on the Internettend to repeat predefined chunks as necessary,making this the first true generator on the Internet.</p>
-                    <button type="button" class="green-button">LEARN MORE</button>
+                    <button onclick="window.location.href = '#';" type="button" class="green-button">LEARN MORE</button>
                 </article>
         </section>
         <img class="pattern" src="images/pattern.png" alt="pattern">
-        <section class="fourth-section">
+        <section id="blog" class="fourth-section">
             <article class="third-article">
                 <span class="wooden-number">20</span>
                 <h2 class="third-article__descriptor black">Years Of Successful Working The Market</h2>
-                <button type="button" class="green-button">READ MORE</button>
+                <button onclick="window.location.href = '#';" type="button" class="green-button">READ MORE</button>
             </article>
             <div class="fourth-section__image third-background">
                 <img src="images/shelves.jpg" alt="shelves" class="sizing">
@@ -129,8 +129,7 @@
         </div>
         </section>
     <img class="spec pattern" src="images/pattern.png" alt="pattern">
-    <section class="sixth-section">
-
+    <section id="testimonials" class="sixth-section">
         <span class="chapter-name test-chapter grey">TESTIMONIALS</span>
         <div class="arrow-align">
         <h2 class="testimonials-descriptor">Client says about us</h2>
@@ -157,7 +156,7 @@
         </article>
     </section>
     <img class="second-divider pattern" src="images/pattern.png" alt="pattern">
-    <section class="seventh-section">
+    <section id="news" class="seventh-section">
         <span class="chapter-name spec-chapter grey">LATEST NEWS</span>
         <h2 class="seventh-section__title black">From Our Blog</h2>
     <article class="seventh-section__news">
@@ -166,7 +165,7 @@
             <div class="newscard">
                 <h3 class="newscard__descriptor black">2020 Interior Design Trends</h3>
                 <p class="newscard__description grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
-                <button class="newscard__button">CONTINUE READING....</button>
+                <button onclick="window.location.href = '#';" class="newscard__button">CONTINUE READING....</button>
             </div>
         </div>
         <div>
@@ -174,7 +173,7 @@
             <div class="newscard">
                 <h3 class="newscard__descriptor black">28 Notable Product of Interior Design</h3>
                 <p class="newscard__description grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
-                <button class="newscard__button">CONTINUE READING....</button>
+                <button onclick="window.location.href = '#';" class="newscard__button">CONTINUE READING....</button>
             </div>
         </div>
     </article>
@@ -187,13 +186,13 @@
             our newsletter.</p>
         <form class="subscribe__form" action="#">
             <input class="subscribe__input" type="email" data-error="Ошибка" placeholder="Enter your email address....."/>
-            <button class="subscribe__button">SUBSCRIBE</button>
+            <button onclick="window.location.href = '#';" class="subscribe__button">SUBSCRIBE</button>
         </form>
     </section>
     <img class="second-divider pattern" src="images/pattern.png" alt="pattern">
     </main>
     <footer>
-    <div class="footer">
+    <div id="contact" class="footer">
         <div class="footer-head">
             <img class="footer__logo" src="images/logo.svg" alt="logo">
             <p class="footer__quote grey">But i must explain to you all this mistaken
@@ -202,32 +201,32 @@
         <article class="footer__tabs">
             <div class="first-tab tab grey">
                 <span class="tab__title black">Quick Links</span><br>
-                About Our Company
-                Services WE provide
-                Career & Opportunity
-                Privacy & policy
-                Contact US</div>
+                <a href="#about">About Our Company</a>
+                <a href="#services">Services WE provide</a>
+                <a href="#">Career & Opportunity</a>
+                <a href="#contact">Privacy & policy</a>
+                <a href="#contact">Contact US</a></div>
             <div class="second-tab tab grey">
                 <span class="tab__title black">Company</span><br>
-                About Company
-                Our Testimonials
-                Latest News <br>
-                Our misson <br>
-                Get a free Quot</div>
+                <a href="#about">About Company</a>
+                <a href="#testimonials">Our Testimonials</a>
+                <a href="#news">Latest News</a> <br>
+                <a href="#blog">Our misson</a> <br>
+                <a href="#">Get a free Quot</a></div>
             <div class="third-tab tab grey">
                 <span class="tab__title black">Contact us</span><br>
                 Sagrada Familia, Herba
                 Street Front USA
-                brandoxide@gmail.com
-                002-568423591</div>
+                <a href="mailto: brandoxide@gmail.com">brandoxide@gmail.com</a>
+                <a href="tel: +002568423591">002-568423591</a></div>
         </article>
         <div class="footer__socials">
             <p class="socials-title black">Follow Us</p>
             <div class="logoes">
-                <div class="logo-container"><img src="images/facebook-logo.svg" alt="facebook-logo"></div>
-                <div class="logo-container"><img src="images/twitter-logo.svg" alt="twitter-logo"></div>
-                <div class="logo-container"><img src="images/instagram-logo.svg" alt="instagram-logo"></div>
-                <div class="logo-container"><img src="images/linked-in-logo.svg" alt="linked-in-logo"></div>
+                <div class="logo-container"><a href="#"><img src="images/facebook-logo.svg" alt="facebook-logo"></a></div>
+                <div class="logo-container"><a href="#"><img src="images/twitter-logo.svg" alt="twitter-logo"></a></div>
+                <div class="logo-container"><a href="#"><img src="images/instagram-logo.svg" alt="instagram-logo"></a></div>
+                <div class="logo-container"><a href="#"><img src="images/linked-in-logo.svg" alt="linked-in-logo"></a></div>
             </div>
         </div>
     </div>
